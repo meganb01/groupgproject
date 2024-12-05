@@ -59,6 +59,25 @@
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
+	font-size: 50px;
+}
+
+.climate-facts{
+	font-family: "Pontano Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.climate-info{
+	font-family: "Pontano Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	padding: 2px;	
 }
 
 body{
@@ -72,6 +91,7 @@ p{
 	font-weight: 700;
 	font-style: normal;
 	font-size: 20px;
+	padding:5px;
 }
 
 h1,h2,h3,h4{
@@ -79,7 +99,8 @@ h1,h2,h3,h4{
 	font-family: "Stint Ultra Expanded", serif;
 	font-weight: 400;
 	font-style: normal;
-	margin-top:20px;
+	padding:5px;
+
 }
 
 .green-button{
