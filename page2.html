@@ -1,0 +1,183 @@
+<!--Page 2:Learn More page by Megan Bates-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!--managing the viewport, link to bootstrap stylesheet, link to own css file and title-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
+		<link 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+		<!--creating a grid for content-->
+		<div class="container-fluid">
+		
+			<!--Navigation bar-->
+			<ul class="nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="page2.html">Learn More</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Take Action</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Resources</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Success Stories</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Get Involved</a>
+			  </li>			  
+			</ul>
+			
+			
+
+			<h1>What Is Climate Change?</h1>
+			
+			<!--row of 1 col-->
+			<div class="row">
+				<div class="col-sm-12">
+				<p>Climate change is one of the largest issues that society faces today. It refers to the shifts in temperatures and weather patterns over a long period of time. These shifts can be caused naturally by the sun changing activity. However, for hundreds of years, it is human activities that has been the leading cause of climate change. In the last 100 years, our use of fossil fuels has caused our planet to get increasingly warmer. This has effected the earth extremely negatively. </p>
+				</div>
+				
+			<div class="row">
+				<div class="col-sm-12">
+				<p>Carbon dioxide and methane are the main greenhouse gases that are causing climate change. There are many example of how this is happening, for example deforestation, agricultural operations, using gasoline for driving cars, or using coal to heat up a building. All of these things are the main contributing factors to climate change.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+				<img src="./images/climatechange.png" class="climateimg" alt="climate change">
+				</div>
+			</div>
+			
+			<h2><u>Consequences of Climate Change:</u></h2>
+			
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Rising Temperatures</h4>
+					<p>Due to the consistent rise in concentration of greenhouse gases, the global temperature continues to rise, with each decade being significantly warmer than the last starting back in the 1980's. Some of the consequences of this include wildfires starting and spreading more easily, more frequent heat-waves and it makes working outdoors more difficult due to heat related illnesses.</p>
+				</div>
+				
+				<div class="col-sm-6">
+					<h4>Extreme weather events</h4> 
+					<p>With the temperature rising more, this leads to more moisture evaporating. This results in extreme rainfall and flooding causing destructive storms. The oceans are getting warmer, and hurricanes and typhoons feed on warm waters at the ocean surface. These kind of storms lead to massive and sometimes fatal destruction, also causing major economic loss.</p>
+				</div>
+			</div>		
+
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Oceans warming and rising</h4>
+					<p>Over the last 20 years, the ocean has been rapidly getting warmer. This causes the water to expand, increasing its volume. Melting ice glaciers also have a huge impact on sea levels rising. This directly threats many coastal and island communities.</p>
+				</div>
+				
+				<div class="col-sm-6">
+					<h4>Extinction of species</h4>
+					<p>The survival of many different species both on land and in the ocean, is at risk due to climate change. Species are going extinct at the fastest rate we have ever seen in humanity. Within the next few decades, there are over a million species that are at risk of becoming extinct. Factors that contribute to this are forest fires and extreme weather.</p>
+				</div>
+			</div>		
+
+			<div class="row">
+				<div class="col-sm-6">
+					<h4>Health risks</h4>
+					<p>Air pollution, increased hunger, disease, and poor nutrition are just some of the ways that climate change has harmed peoples health. Environmental factors are responsible for taking the lives of 13 million people yearly. Deaths increase due to these extreme weather events.</p>
+				</div>
+				
+				<div class="col-sm-6">
+					<h4>Poverty and displacement</h4>
+					<p>People are increasingly being put in poverty due to climate change. Floods have destroyed homes and livelihoods. Extreme weather events have displaced around 23 million people in the last 10 years. </p>
+				</div>
+			</div>
+					
+			<!--button linking to ways to ake action page-->	
+			<div class="d-grid gap-2 col-6 mx-auto">
+			  <button class="green-button" id="cta-button" type="button">Ways To Take Action</button>
+			</div>
+			
+			<h3><u>Get Inspired: Click the button for inpsiring quotes</u></h3>
+			<div class="outer-container">
+				<p id="quotes"></p>
+				<p id="author"></p>
+				<button class="quotes-button" id="generate">Generate</button>
+			</div>
+			
+			
+			<script type="text/javascript">
+			//creating a random quote generater using arrays
+			const generateQuote = function(){
+				const quotes = [
+				{
+					quote: "The Earth is a fine place and worth fighting for",
+					author: "- Ernest Hemingway "
+				},
+				{ 	
+					quote: "What you do makes a difference, and you have to decide what kind of difference you want to make.",
+					author: "- Dr Jane Goodall"
+				},
+				{	
+					quote: "Twenty-five years ago people could be excused for not knowing much, or doing much about climate change. Today we have no excuse.",
+					author: "- Desmond Tutu "
+				},
+				{   
+					quote: "Climate change is the single greastest threat to a sustainable future but, at the same time, addressing the climate challenge presents a golden opportunity to promote properity, security and a brighter future for all.",
+					author: "- Ban Ki-Moon"
+				},
+				{ 
+					quote: "Believe in the power of your own voice. The more noise you make, the more accountability you demand from your leaders, the more our world will change for the better.",
+					author: "- Al Gore"
+				},
+				{
+					quote: "We are the first generation to feel the effect of climate change and the last generation who can do something about it.",
+					author: "- Barack Obama"
+				},
+				{
+					quote: "The strongest governments on earth cannot clean up pollution by themselves. They must rely on each ordinary person, like you and me, on our choices, and on our will.",
+					author: "- Chai Jing"
+				}
+				
+			];
+				
+				//randomising the quotes 
+				let arrayIndex = Math.floor(Math.random() * quotes.length);
+				document.getElementById("quotes").innerHTML = quotes[arrayIndex].quote;
+				document.getElementById("author").innerHTML = quotes[arrayIndex].author;
+			}
+			
+			//display a random quote when the page loads
+			window.onload = function(){
+				generateQuote();
+				document.getElementById("generate").addEventListener('click', generateQuote);
+			}
+			
+			
+			//making the colour of the cta buttons change when they are hovered over
+			const ctaButton = document.getElementById('cta-button');
+				ctaButton.addEventListener('mouseover', function() {
+					ctaButton.style.backgroundColor = '#FFCA3A'; // Changes to this colour when hovered
+					ctaButton.style.cursor = 'pointer';
+				});
+				ctaButton.addEventListener('mouseout', function() {
+					ctaButton.style.backgroundColor = '#6DBE45'; // Changes back to original colour on mouseout
+				});
+			
+			</script>
+						
+	
+	
+		
+		<!--Bootstrap link to enable JavaScript-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
+	
+</html>

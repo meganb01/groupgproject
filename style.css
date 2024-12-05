@@ -1,0 +1,122 @@
+/*styling of page 1 and 2 by megan*/
+
+.pontano-sans-<uniquifier> {
+  font-family: "Pontano Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.stint-ultra-expanded-regular {
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+/*adjusting image sizes*/
+.sign-img{
+	height:300px;
+	width:450px;
+}
+
+.climateimg{
+	height: 400px;
+	width: 70%;
+	display:block;
+	margin: auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+.card-img{
+	height: 400px;
+	width: 100%;
+}
+
+.facts-img{
+	display:block;
+	margin: auto;
+	height:300px;
+	width:400px;
+	border-radius:8px;
+}
+
+.card-text{
+	color: white;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+
+
+
+.card-title{
+	color: white;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+
+body{
+	background-color: #A8D08D;
+}
+
+p{
+	color: white;
+	font-family: "Pontano Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+}
+
+h1,h2,h3,h4{
+	color: #00793D;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-top:20px;
+}
+
+.green-button{
+	border-radius: 12px;
+	color:white;
+	background-color: #6DBE45;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+	margin-bottom:20px;
+	margin-top:30px;
+	
+}
+
+.nav-link{
+	color: white;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.outer-container{
+	Background-color: #307351;
+	border-radius: 8px;
+	padding: 10px;
+	margin: auto;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.quotes-button{
+	border-radius: 12px;
+	background-color: #6DBE45;
+	font-family: "Stint Ultra Expanded", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
