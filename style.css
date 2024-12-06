@@ -1,5 +1,7 @@
 /*styling of page 1 and 2 by megan*/
 
+
+/*fonts taken from google fonts*/
 .pontano-sans-<uniquifier> {
   font-family: "Pontano Sans", sans-serif;
   font-optical-sizing: auto;
@@ -7,34 +9,36 @@
   font-style: normal;
 }
 
+
 .stint-ultra-expanded-regular {
 	font-family: "Stint Ultra Expanded", serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
-
-
-/*adjusting image sizes*/
+/*adjusting height and width of image*/
 .sign-img{
 	height:300px;
 	width:450px;
 }
 
+/*adjusting image size and centring*/
 .climateimg{
 	height: 400px;
 	width: 70%;
 	display:block;
 	margin: auto;
 	margin-bottom:20px;
-	margin-top:20px;
-	
+	margin-top:20px;	
 }
+
+/*adjusting image size*/
 .card-img{
 	height: 400px;
 	width: 100%;
 }
 
+/*adjusting image size and making corners curved*/
 .facts-img{
 	display:block;
 	margin: auto;
@@ -43,6 +47,7 @@
 	border-radius:8px;
 }
 
+/*making card text white, changing font, and centring it*/
 .card-text{
 	color: white;
 	font-family: "Stint Ultra Expanded", serif;
@@ -51,8 +56,7 @@
 	text-align: center;
 }
 
-
-
+/*making card title white, changing font, and centring it*/
 .card-title{
 	color: white;
 	font-family: "Stint Ultra Expanded", serif;
@@ -62,6 +66,7 @@
 	font-size: 50px;
 }
 
+/*changing font, and font size*/
 .climate-facts{
 	font-family: "Pontano Sans", sans-serif;
 	font-optical-sizing: auto;
@@ -71,6 +76,7 @@
 	padding: 20px;
 }
 
+/*changing font, and font size*/
 .climate-info{
 	font-family: "Pontano Sans", sans-serif;
 	font-optical-sizing: auto;
@@ -80,10 +86,12 @@
 	padding: 2px;	
 }
 
+/*setting the background colour*/
 body{
 	background-color: #A8D08D;
 }
 
+/*changing paragraph colour, font, and size*/
 p{
 	color: white;
 	font-family: "Pontano Sans", sans-serif;
@@ -94,15 +102,16 @@ p{
 	padding:5px;
 }
 
+/* changing headings colour and font*/
 h1,h2,h3,h4{
 	color: #00793D;
 	font-family: "Stint Ultra Expanded", serif;
 	font-weight: 400;
 	font-style: normal;
 	padding:5px;
-
 }
 
+/*adjusting button colour, font, text colour, and corners*/
 .green-button{
 	border-radius: 12px;
 	color:white;
@@ -111,10 +120,10 @@ h1,h2,h3,h4{
 	font-weight: 400;
 	font-style: normal;
 	margin-bottom:20px;
-	margin-top:30px;
-	
+	margin-top:30px;	
 }
 
+/*making nav bar white and changing the font*/
 .nav-link{
 	color: white;
 	font-family: "Stint Ultra Expanded", serif;
@@ -122,6 +131,7 @@ h1,h2,h3,h4{
 	font-style: normal;
 }
 
+/*making a box for quote generator*/
 .outer-container{
 	Background-color: #307351;
 	border-radius: 8px;
@@ -131,8 +141,10 @@ h1,h2,h3,h4{
 	margin-bottom:20px;
 }
 
+/*changing buttong colour, font and corners*/
 .quotes-button{
 	border-radius: 12px;
+	color:white;
 	background-color: #6DBE45;
 	font-family: "Stint Ultra Expanded", serif;
 	font-weight: 400;
@@ -140,4 +152,4 @@ h1,h2,h3,h4{
 }
 
 
-
+/* styling of page 3 and 4 by      */

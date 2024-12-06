@@ -39,7 +39,7 @@
 			  </li>			  
 			</ul>
 			
-			<!--Card for heading-->
+			<!--Card for main heading-->
 			<div class="card text-bg-dark">
 			  <img src="./images/header.jpg" class="card-img" alt="climate change landscape">
 			  <div class="card-img-overlay">
@@ -47,9 +47,7 @@
 				<h5 class="card-text">Join Us In The Fight Today!</h5>
 			  </div>
 			</div>
-			
 
-			
 			<!--row of 1 col-->
 			<div class="row">
 				<div class="col-sm-12">
@@ -69,7 +67,7 @@
 			  <button class="green-button" id="cta-button" type="button">Take Action Now!</button>
 			</div>
 			
-			
+			<!--another heading-->
 			<h2><u>Did You Know?</u></h2>
 			<!--row of 3 cols-->
 			<div class="row">
@@ -120,7 +118,7 @@
 				</div>
 			</div>
 			
-			
+			<!--another heading-->
 			<h2><u>Small Things That Can Help Make A Change:</u></h2>
 			<!--row of 2 cols-->
 			<div class="row">
@@ -163,23 +161,19 @@
 			
 			<script type="text/javascript">
 			//making the colour of the cta buttons change when they are hovered over
-			const ctaButton = document.getElementById('cta-button');
+			let ctaButton = document.getElementById('cta-button');
 				ctaButton.addEventListener('mouseover', function() {
-					ctaButton.style.backgroundColor = '#FFCA3A'; // Change color on hover
+					ctaButton.style.backgroundColor = '#FFCA3A'; // Changes to this colour when hovering
 					ctaButton.style.cursor = 'pointer';
 				});
 				ctaButton.addEventListener('mouseout', function() {
-					ctaButton.style.backgroundColor = '#6DBE45'; // Revert color on mouseout
+					ctaButton.style.backgroundColor = '#6DBE45'; // Changes back to roiginal colour on mouseout
 				});
 			
 			
 			</script>
 
-		
-				
-		
 		<!--Bootstrap link enabling JavaScript-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	</body>
-	
+	</body>	
 </html>

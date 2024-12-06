@@ -40,8 +40,7 @@
 			  </li>			  
 			</ul>
 			
-			
-
+			<!--main heading-->
 			<h1>What Is Climate Change?</h1>
 			
 			<!--row of 1 col-->
@@ -50,25 +49,29 @@
 				<p>Climate change is one of the largest issues that society faces today. It refers to the shifts in temperatures and weather patterns over a long period of time. These shifts can be caused naturally by the sun changing activity. However, for hundreds of years, it is human activities that has been the leading cause of climate change. In the last 100 years, our use of fossil fuels has caused our planet to get increasingly warmer. This has effected the earth extremely negatively. </p>
 				</div>
 				
+			<!--row of 1 col -->	
 			<div class="row">
 				<div class="col-sm-12">
 				<p>Carbon dioxide and methane are the main greenhouse gases that are causing climate change. There are many example of how this is happening, for example deforestation, agricultural operations, using gasoline for driving cars, or using coal to heat up a building. All of these things are the main contributing factors to climate change.</p>
 				</div>
 			</div>
 			
+			<!--row of 1 col -->
 			<div class="row">
 				<div class="col-sm-12">
 				<img src="./images/climatechange.png" class="climateimg" alt="climate change">
 				</div>
 			</div>
 			
-			<!--button linking to ways to ake action page-->	
+			<!--button linking to "ways to take action" page-->	
 			<div class="d-grid gap-2 col-6 mx-auto">
 			  <button class="green-button" id="cta-button" type="button">Take Action Now!</button>
 			</div>			
 			
+			<!--new heading-->
 			<h2><u>Consequences of Climate Change:</u></h2>
 			
+			<!--row of 2 cols-->
 			<div class="row">
 				<div class="col-sm-6">
 					<h4>Rising Temperatures</h4>
@@ -80,7 +83,8 @@
 					<p class="climate-info">With the temperature rising more, this leads to more moisture evaporating. This results in extreme rainfall and flooding causing destructive storms. The oceans are getting warmer, and hurricanes and typhoons feed on warm waters at the ocean surface. These kind of storms lead to massive and sometimes fatal destruction, also causing major economic loss.</p>
 				</div>
 			</div>		
-
+			
+			<!--row of 2 cols-->
 			<div class="row">
 				<div class="col-sm-6">
 					<h4>Oceans warming and rising</h4>
@@ -92,7 +96,8 @@
 					<p class="climate-info">The survival of many different species both on land and in the ocean, is at risk due to climate change. Species are going extinct at the fastest rate we have ever seen in humanity. Within the next few decades, there are over a million species that are at risk of becoming extinct. Factors that contribute to this are forest fires and extreme weather.</p>
 				</div>
 			</div>		
-
+			
+			<!--row of 2 cols-->
 			<div class="row">
 				<div class="col-sm-6">
 					<h4>Health risks</h4>
@@ -105,18 +110,21 @@
 				</div>
 			</div>
 					
+			<!--new heading-->
 			<h3><u>Get Inspired: Click the button for inpsiring quotes</u></h3>
+			
+			<!--button to generate new quote-->
 			<div class="outer-container">
 				<p id="quotes"></p>
 				<p id="author"></p>
 				<button class="quotes-button" id="generate">Generate</button>
 			</div>
 			
-			
+	
 			<script type="text/javascript">
 			//creating a random quote generater using arrays
-			const generateQuote = function(){
-				const quotes = [
+			let generateQuote = function(){
+				let quotes = [
 				{
 					quote: "The Earth is a fine place and worth fighting for",
 					author: "- Ernest Hemingway "
@@ -157,12 +165,12 @@
 			//display a random quote when the page loads
 			window.onload = function(){
 				generateQuote();
-				document.getElementById("generate").addEventListener('click', generateQuote);
+				document.getElementById("generate").addEventListener('click', generateQuote); //when "generate" button is clicked, generate a new quote
 			}
 			
 			
 			//making the colour of the cta buttons change when they are hovered over
-			const ctaButton = document.getElementById('cta-button');
+			let ctaButton = document.getElementById('cta-button');
 				ctaButton.addEventListener('mouseover', function() {
 					ctaButton.style.backgroundColor = '#FFCA3A'; // Changes to this colour when hovered
 					ctaButton.style.cursor = 'pointer';
@@ -173,11 +181,7 @@
 			
 			</script>
 						
-	
-	
-		
 		<!--Bootstrap link to enable JavaScript-->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	</body>
-	
+	</body>	
 </html>
